@@ -91,9 +91,9 @@ label {
     }
 }
 
-$cl = new EmailVerification();
-$cl->perform();
-$cl->validating();
+$run = new EmailVerification();
+$run->perform();
+$run->validating();
 
 
 ?>
